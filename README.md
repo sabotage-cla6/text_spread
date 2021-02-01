@@ -28,6 +28,7 @@ Markdownの箇条書きと同様の形式
 
 ```
 <extable>
+
 - columns
 -- col1
 --- width:20px
@@ -48,6 +49,9 @@ Markdownの箇条書きと同様の形式
 ---- color: #ff0000
 </extable>
 ```
+
+- a
+  - b
 
 
 - columns
