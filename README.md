@@ -28,31 +28,43 @@ Markdownの箇条書きと同様の形式
 
 ```
 <extable>
-- Header
- -- column define
-  --- col1
-  --- col2
- -- column format
-  --- col1
-   ---- width:20px
-   ---- width:20px
- -- column header format
-  --- col1
-   ---- background_color:#eeeeee
-   ---- font-weight:bold
+- columns
+-- col1
+--- width:20px
+--- background-color:#cccccc
+-- col2
+--- column format
+- column_format
+-- col1
+--- background_color:#eeeeee
+--- font-weight:bold
+- datarows
+-- datarow
+--- col1
+---- value: aaa
+---- color: #ff0000
+--- col2
+---- value: aaa
+---- color: #ff0000
 </extable>
 ```
 
 
-- Header
- - column define
-  - col1
-  - col2
- - column format
-  - col1
-   - width:20px
-   - width:20px
- - column header format
-  - col1
-   - background_color:#eeeeee
-   - font-weight:bold
+- columns
+-- col1
+--- width:20px
+--- background-color:#cccccc
+-- col2
+--- column format
+- column_format
+-- col1
+--- background_color:#eeeeee
+--- font-weight:bold
+- datarows
+-- datarow
+--- col1
+---- value: aaa
+---- color: #ff0000
+--- col2
+---- value: aaa
+---- color: #ff0000
