@@ -45,14 +45,14 @@ Markdownの箇条書きと同様の形式
 
 
 - Header
- -- column define
-  --- col1
-  --- col2
- -- column format
-  --- col1
-   ---- width:20px
-   ---- width:20px
- -- column header format
-  --- col1
-   ---- background_color:#eeeeee
-   ---- font-weight:bold
+ - column define
+  - col1
+  - col2
+ - column format
+  - col1
+   - width:20px
+   - width:20px
+ - column header format
+  - col1
+   - background_color:#eeeeee
+   - font-weight:bold
