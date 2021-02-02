@@ -29,46 +29,39 @@ Markdownの箇条書きと同様の形式
 ```
 <extable>
 
-- columns
--- col1
---- width:20px
---- background-color:#cccccc
--- col2
---- column format
-- column_format
--- col1
---- background_color:#eeeeee
---- font-weight:bold
-- datarows
--- datarow
---- col1
----- value: aaa
----- color: #ff0000
---- col2
----- value: aaa
----- color: #ff0000
-</extable>
+{
+  "columns":[
+    "col1_aaa":{
+      "width": "20px",
+      "background-color": "#cccccc",
+      "header":{
+        "value": "列_aaa"
+      },
+    "col1_bbb":{
+      "width": "auto",
+      "header":{
+        "value": "列_aaa"
+      },
+    }
+  ],
+  "rows":[
+    "row":{
+      "col_aaa": {
+        "value": "aiueo",
+        "background-color": #cccccc,
+        "font-weight": "bold"
+      },
+      "col_bbb": {
+        "value": "12345",
+      },
+    },
+    "row":{
+      "col_aaa": {
+        "value": "aiueo",
+        "background-color": #cccccc,
+        "font-weight": "bold"
+      },
+    },
+  ],
+}
 ```
-
-- a
-  - b
-
-
-- columns
--- col1
---- width:20px
---- background-color:#cccccc
--- col2
---- column format
-- column_format
--- col1
---- background_color:#eeeeee
---- font-weight:bold
-- datarows
--- datarow
---- col1
----- value: aaa
----- color: #ff0000
---- col2
----- value: aaa
----- color: #ff0000
